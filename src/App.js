@@ -5,7 +5,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      DURO roofing inc.
+      <p>DURO roofing inc.</p>
+      내일 아침 8시 배그
     </div>
   );
 }
