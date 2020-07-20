@@ -1,0 +1,10 @@
+.topbar {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+    z-index: 999;
+}

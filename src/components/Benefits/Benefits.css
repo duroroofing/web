@@ -1,0 +1,36 @@
+.benefits {
+    padding: 2rem;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.benefits h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.benefits li {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.benefits li p {
+    color: #969696;
+    line-height: 1.3rem;
+}
+
+.benefits h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 48rem) {
+    .benefits ul {
+        display: flex;
+    }
+    .benefits li {
+        flex: 1 1 0;
+        margin: 2rem;
+    }
+}
