@@ -8,7 +8,8 @@
     margin-bottom: 0.5rem;
 }
 
-#quote-form input[type="text"] {
+#quote-form input[type="text"],
+#quote-form input[type="email"] {
     width: 100%;
     font-size: 1.25rem;
     padding: 0 1rem;
