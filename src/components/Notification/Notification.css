@@ -1,0 +1,11 @@
+.notification {
+    padding: 1rem;
+    background-color: indianred;
+    border-color: red;
+    border-radius: 5px;
+    color: white;
+}
+
+.notification.show {
+    display: none
+}
