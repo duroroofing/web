@@ -25,6 +25,15 @@
     margin-bottom: 1rem;
 }
 
+.benefits .icon {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #eee;
+    display: inline-block;
+    margin: 1rem 0;
+}
+
 @media screen and (min-width: 48rem) {
     .benefits ul {
         display: flex;

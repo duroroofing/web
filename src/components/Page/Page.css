@@ -1,0 +1,10 @@
+.page {
+    margin-top: 4rem;
+    padding: 1rem;
+}
+
+.page h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}

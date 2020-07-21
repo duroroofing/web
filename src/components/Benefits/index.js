@@ -8,6 +8,7 @@ const Benefits = () => {
             <h2>Why DURO roofing</h2>
             <ul>
                 <li>
+                    <span className="icon"></span>
                     <h3>Best Quality</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -15,6 +16,7 @@ const Benefits = () => {
                     </p>
                 </li>
                 <li>
+                    <span className="icon"></span>
                     <h3>Best Quality</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -23,6 +25,7 @@ const Benefits = () => {
                     </p>
                 </li>
                 <li>
+                    <span className="icon"></span>
                     <h3>Best Quality</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
