@@ -14,19 +14,19 @@ const Navigation = () => {
         <nav className={`navigation ${toggle ? 'open' : 'close'}`}>
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/" onClick={toggleMenu}>Home</Link>
                 </li>
                 <li>
-                    <Link to="/services">Services</Link>
+                    <Link to="/services" onClick={toggleMenu}>Services</Link>
                 </li>
                 <li>
-                    <Link to="/about">About Us</Link>
+                    <Link to="/about" onClick={toggleMenu}>About Us</Link>
                 </li>
                 <li>
-                    <Link to="/projects">Projects</Link>
+                    <Link to="/projects" onClick={toggleMenu}>Projects</Link>
                 </li>
                 <li>
-                    <Link to="/get-qoute">Get Quote</Link>
+                    <Link to="/get-qoute" onClick={toggleMenu}>Get Quote</Link>
                 </li>
             </ul>
             <div className="hamburger" onClick={toggleMenu}>
