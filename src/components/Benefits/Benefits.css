@@ -1,5 +1,5 @@
 .benefits {
-    padding: 2rem;
+    padding: 0 2rem 2rem;
     max-width: 48rem;
     margin: 0 auto;
 }
@@ -17,7 +17,7 @@
 
 .benefits li p {
     color: #969696;
-    line-height: 1.3rem;
+    line-height: 1.6rem;
 }
 
 .benefits h3 {
