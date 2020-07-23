@@ -1,0 +1,31 @@
+.reviews {
+    padding: 2rem;
+    max-width: 48rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reviews iframe {
+    margin: 0 auto;
+}
+
+.reviews > a {
+    color: inherit;
+}
+
+.reviews .review-star {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.reviews h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.reviews .name {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}

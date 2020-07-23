@@ -4,6 +4,7 @@
     background-color: gray;
     overflow: hidden;
     position: relative;
+    margin-bottom: 4rem;
 }
 
 .carousel h1 {
