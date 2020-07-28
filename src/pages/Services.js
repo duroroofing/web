@@ -4,7 +4,7 @@ import Page from '../components/Page'
 import Benefits from '../components/Benefits'
 import ServiceArea from '../components/ServiceArea'
 
-import { SERVICES, METERIALS, PROCEDURE } from '../constants/services'
+import { SERVICES, MATERIALS, PROCEDURE } from '../constants/services'
 
 const Services = () => {
     return (
@@ -13,7 +13,7 @@ const Services = () => {
             <p>Our primary goal is to provide the best roofing services possible</p>
             <Benefits copy={SERVICES} />
             <ServiceArea />
-            <Benefits copy={METERIALS} />
+            <Benefits copy={MATERIALS} />
             <Benefits copy={PROCEDURE} />
         </Page>
     )

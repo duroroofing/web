@@ -15,8 +15,8 @@ export const SERVICES = {
     ] 
 }
 
-export const METERIALS = {
-    header: 'Meterials',
+export const MATERIALS = {
+    header: 'Materials',
     list: [
         {
             header: 'Tile',
