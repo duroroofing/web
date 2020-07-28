@@ -4,11 +4,13 @@ import Carousel from '../components/Carousel'
 import Benefits from '../components/Benefits'
 import Reviews from '../components/Reviews'
 
+import { BENEFITS } from '../constants/home'
+
 const Home = () => {
     return (
         <>
             <Carousel />
-            <Benefits />
+            <Benefits copy={BENEFITS} />
             <Reviews />
         </>
     )

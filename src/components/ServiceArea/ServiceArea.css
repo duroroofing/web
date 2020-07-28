@@ -1,0 +1,9 @@
+#serviceArea {
+    margin-bottom: 3rem;
+}
+
+#serviceArea .map {
+    width: 100%;
+    height: 20rem;
+    background-color: #eee;
+}

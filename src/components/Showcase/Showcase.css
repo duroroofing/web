@@ -1,0 +1,12 @@
+#showcase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#showcase li {
+    width: 8rem;
+    height: 8rem;
+    background-color: #eee;
+    margin: 1rem;
+}
