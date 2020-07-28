@@ -2,35 +2,22 @@ import React from 'react'
 
 import './Benefits.css'
 
-const Benefits = () => {
+const Benefits = ({ copy }) => {
+    const { header, list } = copy
+
     return (
         <div className="benefits">
-            <h2>Why DURO roofing</h2>
+            {header && <h2>{header}</h2>}
             <ul>
-                <li>
-                    <span className="icon"></span>
-                    <h3>Best Quality</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Nunc lectus nisl, blandit ut laoreet quis, tempor et massa. 
-                    </p>
-                </li>
-                <li>
-                    <span className="icon"></span>
-                    <h3>Best Quality</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Nunc lectus nisl, blandit ut laoreet quis, tempor et massa. 
-                        Nam facilisis convallis mi id ullamcorper.
-                    </p>
-                </li>
-                <li>
-                    <span className="icon"></span>
-                    <h3>Best Quality</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                </li>
+                {list && list.map((item, index) => {
+                    return (
+                        <li key={index}>
+                            <span className="icon"></span>
+                            <h3>{item.header}</h3>
+                            <p>{item.body}</p>
+                        </li>        
+                    )
+                })}
             </ul>
         </div>
     )
